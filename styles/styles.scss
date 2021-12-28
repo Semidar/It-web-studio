@@ -1,0 +1,15 @@
+@import 'fonts';
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'montserat';
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@import 'header';
+@import 'time-table';
+@import 'rules';
+@import 'footer';

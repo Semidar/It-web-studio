@@ -1,0 +1,128 @@
+.rules {
+  max-width: 1920px;
+  background-color: #f3a917;
+  .rules-wrapper {
+    padding: 150px 200px 194px 200px;
+    display: flex;
+    justify-content: space-between;
+    .our-rules {
+      max-width: 600px;
+      margin: 0 20px 0 0;
+      h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 18px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    .info-desc {
+      margin: 0;
+      .info-desc-inner {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 70px;
+        .brake {
+          width: 76px;
+          border-top: 4px solid #fff;
+        }
+        .img {
+          width: 80px;
+          height: 80px;
+          margin-bottom: 30px;
+        }
+        h4 {
+          margin-bottom: 5px;
+        }
+        .registration {
+          .img {
+            background-image: url('../img/trophy.png');
+          }
+        }
+        .check-in {
+          .img {
+            background-image: url('../img/shield.png');
+          }
+        }
+        .scheduling {
+          .img {
+            background-image: url('../img/calendar.png');
+          }
+        }
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 18px 60px;
+        border: none;
+        border-radius: 5px;
+        .img {
+          margin-right: 10px;
+          width: 24px;
+          height: 24px;
+          border-radius: 50px;
+          border: 1px solid #f3a917;
+          background-image: url('../img/botton-img.png');
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        p {
+          font-weight: 600;
+        }
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: #292a2f;
+        color: #fff;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .rules {
+    .rules-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .our-rules {
+        margin: 0 0 20px 0;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .rules {
+    .rules-wrapper {
+      padding: 150px 100px 194px 100px;
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 480px) {
+  .rules {
+    .rules-wrapper {
+      .info-desc {
+        .info-desc-inner {
+          flex-direction: column;
+          .brake {
+            display: none;
+          }
+          p {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}

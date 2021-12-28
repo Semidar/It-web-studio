@@ -1,0 +1,149 @@
+.rules {
+  max-width: 1920px;
+  background-color: #f3a917;
+}
+
+.rules .rules-wrapper {
+  padding: 150px 200px 194px 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rules .rules-wrapper .our-rules {
+  max-width: 600px;
+  margin: 0 20px 0 0;
+}
+
+.rules .rules-wrapper .our-rules h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.rules .rules-wrapper .our-rules p {
+  font-size: 18px;
+}
+
+.rules .rules-wrapper .our-rules a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rules .rules-wrapper .info-desc {
+  margin: 0;
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner .brake {
+  width: 76px;
+  border-top: 4px solid #fff;
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner .img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner h4 {
+  margin-bottom: 5px;
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner .registration .img {
+  background-image: url("../img/trophy.png");
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner .check-in .img {
+  background-image: url("../img/shield.png");
+}
+
+.rules .rules-wrapper .info-desc .info-desc-inner .scheduling .img {
+  background-image: url("../img/calendar.png");
+}
+
+.rules .rules-wrapper .info-desc button {
+  display: block;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 60px;
+  border: none;
+  border-radius: 5px;
+}
+
+.rules .rules-wrapper .info-desc button .img {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  border: 1px solid #f3a917;
+  background-image: url("../img/botton-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rules .rules-wrapper .info-desc button p {
+  font-weight: 600;
+}
+
+.rules .rules-wrapper .info-desc button:hover {
+  cursor: pointer;
+  background-color: #292a2f;
+  color: #fff;
+}
+
+@media (max-width: 1280px) {
+  .rules .rules-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .rules .rules-wrapper .our-rules {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rules .rules-wrapper {
+    padding: 150px 100px 194px 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rules .rules-wrapper .info-desc .info-desc-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rules .rules-wrapper .info-desc .info-desc-inner .brake {
+    display: none;
+  }
+  .rules .rules-wrapper .info-desc .info-desc-inner p {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=rules.css.map */
